@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>New Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Lato" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+    <script src="https://use.fontawesome.com/a5a1ce3465.js"></script>
+    <script src="script.js"></script>
+</head>
+
+<body>
+
+    <div class="navbar">
+        <ul class="navbar__menu">
+
+            <div class="navbar__menu-name">
+                <li class="navbar__menu-item">Bánk Horváth</li>
+            </div>
+
+            <div class="navbar__menupoints">
+                <li class="navbar__menu-item">
+                    <a class="navbar__menu-item-button" href="#content__about-id">About</a>
+                </li>
+                <li class="navbar__menu-item">
+                    <a class="navbar__menu-item-button" href="#content__portfolio-id">Portfolio</a>
+                </li>
+                <li class="navbar__menu-item">
+                    <a class="navbar__menu-item-button" href="#content__contact-id">Contact</a>
+                </li>
+            </div>
+
+        </ul>
+    </div>
+
+    <div class="content container-fluid">
+
+        <div class="content__about">
+            <h2 class="content__h2-class" id="content__about-id">About</h2>
+            <div class="row">
+                <div class="col-sm-8">
+                    <p>
+                        Service systems designer, economist in marketing and chemist, with practical experience in pharmaceutical and online marketing,
+                        business analysis. Learning programming, currently devoted to HTML and CSS.
+                    </p>
+
+                    <p style="font-size: 20px; font-weight: bold;">
+                        Aspiring web-developer - Service designer - Marketing associate
+                    </p>
+                    <div class="content__about__skills">
+                        <p>Skills:
+                            <ul>
+                                <li>Analytical</li>
+                                <li>Structured</li>
+                                <li>Data driven</li>
+                                <li>Detail oriented</li>
+                                <li>Holistic viewer</li>
+                            </ul>
+                        </p>
+                        <hr>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <img class="portrait-picture" src="bankkep.jpg"
+                        alt="Picture about a really sexy guy">
+                </div>
+            </div>
+
+        </div>
+
+        <div class="content__portfolio">
+            <h2 class="content__h2-class" id="content__portfolio-id">Portfolio</h2>
+
+            <p>My portfolio shows developed websites and service systems design concept ideas.
+            </p>
+
+            <div class="content__portfolio-item">
+
+                <div class="row">
+                    <div class="col-sm-6">
+                        <img class="content__portfolio-item-picture" src="kimi.png" alt="Tribute page for Kimi Räikkönen">
+                        <figcaption>Tribute page for Kimi Räikkönen</figcaption>
+                        <img class="content__portfolio-item-picture" src="ssd1.png" alt="A storyboard of concept idea">
+                        <figcaption>Service design concept 1</figcaption>
+                    </div>
+                    <div class="col-sm-6">
+                        <img class="content__portfolio-item-picture" src="firstsite.png" alt="Ugly website with ugly colors">
+                        <figcaption>My very first and ugly website</figcaption>
+                        <img class="content__portfolio-item-picture" src="practice.png" alt="Kitties and jQuery playground">
+                        <figcaption>Practice based on freecodecamp</figcaption>
+                        <img class="content__portfolio-item-picture" src="byke.jpg" alt="A storyboard of Byke concept idea">
+                        <figcaption>Byke SSD concept idea for first semester</figcaption>
+                    </div>
+
+                </div>
+                <p style="text-align: center; margin-top: 5rem;">To be continued...</p>
+            </div>
+
+
+            <div class="content__contact">
+
+                <h2 class="content__h2-class" id="content__contact-id">Contact</h2>
+                <form action="">
+                    <p>Your name:</p>
+                    <input type="text" name="name" id="name" title="Available right after I have learnt PHP" autocomplete="on">
+                    <p>Your email address:</p>
+                    <input type="email" name="email" title="Available right after I have learnt PHP" autocomplete="on">
+                    <p>Your message:</p>
+                    <textarea name="message" id="message" cols="80" rows="10" disabled title="Available right after I have learnt PHP" placeholder="Ide majd message system gyün ha megtanulom. Majd azt is tanuljuk a freecodecampben gondolom. Rákereshetnék most, hogy hogy kell, de inkább most itthagyom egyelőre ezt az oldalt, és megyek tovább freecodecampben. Mert amúgy is még sok mindent lehetne változtatni itt is, pl nem tudom eldönteni, hogy kisebbek legyenek-e a közösségi média gombok vagy ne. Meg a színeken meg a kinézeten még lehet ezt azt változtatni. Ja, meg a smooth scrollingot akarom majd még belerakni, meg azt, hogy a navbar gombjai aktívak legyenek, amikor épp az adott rész látszik. De ezekhez valószínűleg javascript kell, amit még nem tudok."></textarea>
+                    <br>
+                    <input type="submit" value="Submit" disabled title="Available right after I have learnt PHP">
+                </form>
+
+                <p>
+                    To cotact me write an email to
+                    <a href="mailto:mienkapalya7@gmail.com" target="_blank">mienkapalya7@gmail.com</a>, or follow me on social media:
+                </p>
+
+
+
+
+                <!-- Social media buttons -->
+                <ul class="content__contact__social-media">
+
+                    <a class="content__contact__social-media-item-button" href="https://www.linkedin.com/in/b%C3%A1nk-horv%C3%A1th-a07b2258/"
+                        target="_blank">
+                        <li class="fa-stack fa-2x">
+                            <i class="fa fa-circle fa-stack-2x content__contact__social-media-item-button__linkedin"></i>
+                            <i class="fa fa-circle-thin fa-stack-2x icon-background1"></i>
+                            <i class="fa fa-linkedin fa-stack-1x"></i>
+                        </li>
+                    </a>
+
+                    <a class="content__contact__social-media-item-button" href="https://www.behance.net/bankhorvath" target="_blank">
+                        <li class="fa-stack fa-2x">
+                            <i class="fa fa-circle fa-stack-2x content__contact__social-media-item-button__behance"></i>
+                            <i class="fa fa-circle-thin fa-stack-2x"></i>
+                            <i class="fa fa-behance fa-stack-1x"></i>
+                        </li>
+                    </a>
+
+                    <a class="content__contact__social-media-item-button" href="https://www.facebook.com/bank.horvath" target="_blank">
+                        <li class="fa-stack fa-2x">
+                            <!-- fa-2x helyett ha fa-lg van, akkor kisebbek lesznek az ikonok, ha fa-3x, akkor nagyobbak. Viszont a li classába kell ezt írni!
+                        <li class="fa-stack fa-lg"> -->
+                            <i class="fa fa-circle fa-stack-2x content__contact__social-media-item-button__facebook"></i>
+                            <i class="fa fa-circle-thin fa-stack-2x"></i>
+                            <i class="fa fa-facebook fa-stack-1x"></i>
+                        </li>
+                    </a>
+
+                    <a class="content__contact__social-media-item-button" href="https://www.instagram.com/bankilicious/" target="_blank" title='My Instagram'>
+                        <li class="fa-stack fa-2x">
+                            <i class="fa fa-circle fa-stack-2x content__contact__social-media-item-button__instagram"></i>
+                            <i class="fa fa-circle-thin fa-stack-2x"></i>
+                            <i class="fa fa-instagram fa-stack-1x"></i>
+                        </li>
+                    </a>
+
+
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer__imprint">
+            <p>
+                <span style="font-size: 14px;">Written and coded by
+                    <a href="https://codepen.io/baisho/" target="_blank">Bánk Horváth</a>.
+                </span>
+            </p>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
